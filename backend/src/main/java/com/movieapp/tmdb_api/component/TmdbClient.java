@@ -45,5 +45,16 @@ public class TmdbClient {
 
         return response.getResults();
     }
+
+    public List<MovieDto> searchNowPlayingMovies() {
+
+        String url = baseUrl
+                + "/movie/now_playing?api_key=" + apiKey;
+
+        TmdbMovieResponse response =
+                restTemplate.getForObject(url, TmdbMovieResponse.class);
+
+        return response.getResults();
+    }
 }
 

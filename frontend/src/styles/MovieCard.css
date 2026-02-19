@@ -37,10 +37,10 @@
 .movie-rating {
   font-size: 0.9rem;
   margin-bottom: 5px;
-  color: #f59e0b; /* color dorado para estrellas */
+  color: #f59e0b;
 }
 
 .movie-release {
   font-size: 0.8rem;
-  color: #6b7280; /* gris suave */
+  color: #6b7280;
 }

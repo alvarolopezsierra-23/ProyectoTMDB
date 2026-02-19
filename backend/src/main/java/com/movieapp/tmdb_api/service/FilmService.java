@@ -22,5 +22,9 @@ public class FilmService {
     public List<MovieDto> findTopRatedMovies() {
         return tmdbClient.searchTopRatedMovie();
     }
+
+    public List<MovieDto> findNowPlayingMovies() {
+        return tmdbClient.searchNowPlayingMovies();
+    }
 }
 

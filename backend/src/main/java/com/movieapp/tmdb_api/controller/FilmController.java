@@ -26,4 +26,9 @@ public class FilmController {
     public ResponseEntity<List<MovieDto>> topRated() {
         return ResponseEntity.ok(filmService.findTopRatedMovies());
     }
+
+    @GetMapping("/now-playing")
+    public ResponseEntity<List<MovieDto>> nowPlaying() {
+        return ResponseEntity.ok(filmService.findNowPlayingMovies());
+    }
 }
