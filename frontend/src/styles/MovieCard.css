@@ -1,0 +1,46 @@
+/* MovieCard.css */
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.movie-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}
+
+.movie-poster {
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.movie-info {
+  padding: 15px;
+  text-align: center;
+}
+
+.movie-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #111827;
+}
+
+.movie-rating {
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+  color: #f59e0b; /* color dorado para estrellas */
+}
+
+.movie-release {
+  font-size: 0.8rem;
+  color: #6b7280; /* gris suave */
+}
