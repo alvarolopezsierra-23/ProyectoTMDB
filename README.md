@@ -41,6 +41,7 @@ cinematica/
 This project follows a monorepo structure, where frontend and backend live in the same repository but remain independent applications.
 
 ⚙️ Backend Setup
+
 1️⃣ Navigate to backend
 cd backend
 
@@ -71,6 +72,7 @@ Example endpoint:
 GET /films/top-rated
 
 💻 Frontend Setup
+
 1️⃣ Navigate to frontend
 cd frontend
 
