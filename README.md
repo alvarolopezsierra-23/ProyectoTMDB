@@ -137,8 +137,8 @@ Deployment
 
 📷 Preview
 
-<img src="assets/preview_home.png" width="800"/>
-
+<img src="assets/home-page-preview1.png" width="800"/>
+<img src="assets/home-page-preview2.png" width="800"/>
 
 👨‍💻 Author
 
