@@ -135,6 +135,10 @@ Dockerization
 
 Deployment
 
+📷 Preview
+
+<img src="assets/preview-home.png" width="800"/>
+
 
 👨‍💻 Author
 
